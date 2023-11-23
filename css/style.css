@@ -6,6 +6,10 @@
 /* font-family: 'Noto Sans KR', '나눔고딕', 'Nanum Gothic', 'Malgun Gothic', '맑은고딕', '돋움', 'Dotum', sans-serif; */
 /* #00907f */
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .clearfix::after {
     content: "";
@@ -28,7 +32,6 @@
 #banner {
     background-color: #a0d1ee;
     height: 470px;
-
 }
 
 #contents {}
@@ -862,11 +865,6 @@
     position: relative;
 }
 
-.event_box2 .eb_banner4 {}
-
-.event_box2 .eb_banner5 {}
-
-
 .eb_icon {
     position: absolute;
     left: 53px;
@@ -1025,6 +1023,10 @@
 
 .eb_banner5 .money li a:hover {
     background: #f4f4f4;
+}
+
+.event_box2 .eb_banner5 .money li.w100 a {
+    width: 100px;
 }
 
 .eb_banner5 .point {
