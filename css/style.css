@@ -207,6 +207,9 @@ html {
     color: #fff;
 }
 
+.ban_right .br_btn ul li a:hover {
+    color: #333;
+}
 
 /* 📍 contents */
 #cont1 {
