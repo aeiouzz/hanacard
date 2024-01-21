@@ -1420,7 +1420,7 @@ html {
 #footer .notice .notice_btn {
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 28px;
     border: 1px solid #e6e6e6;
     font-size: 14px;
     border-radius: 3px;
@@ -1517,7 +1517,7 @@ html {
 .family_site {
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 40px;
     font-size: 14px;
     border: 1px solid #e6e6e6;
     padding: 7px 20px;
