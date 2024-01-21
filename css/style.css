@@ -25,16 +25,10 @@ html {
 
 
 /* 📍 전체 레이아웃 */
-#wrap {}
-
-#header {}
-
 #banner {
     background-color: #a0d1ee;
     height: 470px;
 }
-
-#contents {}
 
 /* 📍 중심영역 */
 .container {
@@ -49,14 +43,15 @@ html {
     padding: 7px 0;
 }
 
-.header ul {}
+.header .hanalogo {
+    width: 75px;
+    margin-right: 30px;
+}
 
 .header ul li {
     float: left;
     background: url(../img/bar1.gif) no-repeat 0 9px;
 }
-
-
 
 .header ul li a {
     /* ✨ 글자만 클릭해도 박스 전체를 클릭한 효과. 블록 처리하기!!!! */
@@ -68,12 +63,9 @@ html {
     float: left;
 }
 
-.header ul.list1 li:nth-child(2) {
-    /* | */
+.header ul.list1 li:nth-child(1), .header ul.list1 li:nth-child(3){
     background: none;
 }
-
-.header ul.list1 li a {}
 
 .header ul.list1 li.green a {
     background-color: #00907f;
@@ -84,8 +76,6 @@ html {
 .header ul.list2 {
     float: right;
 }
-
-.header ul.list2 li a {}
 
 .header ul.list2 li.log a {
     border: 1px solid #ccc;
@@ -132,17 +122,11 @@ html {
     background-color: #00907f;
 }
 
-.ban_right .br_tit p strong {}
-
 .ban_right .login_btn {
     position: absolute;
     right: 60px;
     top: 55px;
 }
-
-.ban_right .login_btn ul {}
-
-.ban_right .login_btn ul li {}
 
 .ban_right .login_btn ul li a {
     display: block;
@@ -217,8 +201,6 @@ html {
     width: 0;
     height: 0;
 }
-
-
 
 .ban_right .br_btn ul li a {
     display: block;
@@ -306,7 +288,6 @@ html {
     color: black;
 }
 
-
 #nav .gnb_right li.gr2 a {
     background-color: #404b57;
     color: #fff;
@@ -322,12 +303,10 @@ html {
     /* 간편 서비스 보더 때문에 그게 더 커보임 그래서 같은 색으로 선을 잡아줌 */
 }
 
-
 #nav .gnb_right li.gr2 a i {
     margin-left: 10px;
     /* ??? */
 }
-
 
 #nav .gnb_search {
     position: absolute;
@@ -356,8 +335,6 @@ html {
 
 
 /* 📍 banner */
-#banner {}
-
 .ban_left {
     position: relative;
 }
@@ -684,10 +661,6 @@ html {
     margin-bottom: 11px;
 }
 
-#card .card_img .card_banner {}
-
-#card .card_img .card_banner ul {}
-
 #card .card_img .card_banner ul li {
     float: left;
     width: 146px;
@@ -698,8 +671,6 @@ html {
 #card .card_img .card_banner ul li:nth-child(3) {
     margin-right: 0;
 }
-
-#card .card_img .card_banner ul li a {}
 
 #card .card_img .card_banner ul li a img {
     width: 100%;
@@ -741,7 +712,6 @@ html {
     border-color: #666;
 }
 
-
 .card_img .cardmore_btn {
     position: absolute;
     top: 76px;
@@ -751,6 +721,7 @@ html {
     height: 144px;
     background: url(../img/btn_card_v01.png);
 }
+
 
 /* 📍 card_desc */
 #card .card_desc {
@@ -771,8 +742,6 @@ html {
     font-weight: 500;
 }
 
-#card .card_desc dl dd {}
-
 #card .card_desc dl dd.cd1 {
     font-size: 23px;
     margin: 26px 0 45px;
@@ -782,18 +751,11 @@ html {
 #card .card_desc dl dd.cd1::after {
     content: "";
     color: #00907f;
-
 }
-
-
-#card .card_desc dl dd.cd2 {}
-
-#card .card_desc dl .cd2 ul {}
 
 #card .card_desc dl .cd2 ul li {
     display: inline;
     /* 이걸로 옆으로 정렬됨 */
-
 }
 
 #card .card_desc dl .cd2 ul li a {
@@ -821,9 +783,6 @@ html {
 }
 
 /* 📍 event_box1 */
-
-.event_box1 {}
-
 .event_box1>div {
     /* 이벤트 박스의 배너123 */
     width: 300px;
@@ -857,6 +816,7 @@ html {
     background: #43587d url(../img/event_icon3.png) no-repeat center 25px;
 }
 
+
 /* 📍 event_box2 */
 .event_box2 {
     background-color: #fff;
@@ -871,8 +831,6 @@ html {
     top: 60px;
     z-index: 40;
 }
-
-.eb_icon ul {}
 
 .eb_icon ul li {
     float: left;
@@ -945,6 +903,7 @@ html {
 .eb_slider_list .slick-dots li.slick-active button {
     background-color: #d75e7e;
 }
+
 
 /* 📍 슬릭 재생|정지 버튼 */
 .eb_slider .page_act {
@@ -1109,6 +1068,7 @@ html {
     border-radius: 3px;
 }
 
+
 /* 📍 life */
 #life {
     position: relative;
@@ -1152,9 +1112,6 @@ html {
     color: #fff;
 }
 
-#life .life_style {}
-
-#life .life_style ul {}
 
 #life .life_style ul li {
     position: absolute;
@@ -1180,7 +1137,6 @@ html {
     background: url(../img/mc_service_bg05.png) no-repeat;
 }
 
-#life .life_style ul .text {}
 
 #life .life_style ul .text a {
     width: 50%;
@@ -1218,8 +1174,6 @@ html {
     background-color: #fff;
 }
 
-#life .life_btn ul {}
-
 #life .life_btn ul li {
     width: 16.6666%;
     float: left;
@@ -1253,8 +1207,6 @@ html {
 
 
 /* 📍 app */
-#app {}
-
 #app .app_left {
     float: left;
     width: 49%;
@@ -1277,8 +1229,6 @@ html {
     border: 1px solid #eaeaea;
     border-radius: 10px;
 }
-
-#app .app_left ul li a {}
 
 #app .app_left ul li a img {
     border-radius: 10px;
@@ -1368,8 +1318,7 @@ html {
 }
 
 
-/* footer */
-
+/* 📍 footer */
 #footer .notice {
     overflow: hidden;
 }
@@ -1447,8 +1396,6 @@ html {
 .info a:hover {
     color: #00907f;
 }
-
-.info ul {}
 
 .info ul li {
     display: inline-block;
